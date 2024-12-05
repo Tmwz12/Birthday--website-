@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلاد سعيد</title>
+    <style>
+        body {
+            background-color: #fdf2e9;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ff6347;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .balloons, .anime-character {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 400px;
+            display: block;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>عيد ميلاد سعيد، كنار!</h1>
+        <p>نتمنى لك يوماً مليئاً بالفرح والسرور وكل عام وأنتِ بألف خير!</p>
+        <!-- صورة بالونات عيد الميلاد -->
+        <img class="balloons" src="https://via.placeholder.com/800x400.png?text=Happy+Birthday" alt="بالونات عيد الميلاد">
+        <!-- صورة شخصية الأنمي -->
+        <img class="anime-character" src="https://chat.openai.com/file-5yKvYm5wqMgDtugRSokdRC" alt="شخصية أنمي تحمل كعكة عيد ميلاد">
+        <!-- تضمين فيديو YouTube -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_gZFTyPzeO4" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
